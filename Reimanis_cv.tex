@@ -1,0 +1,223 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Derek \textsc{Reimanis}}\bigskip\par} % Your name
+
+\section{Personal Information}
+
+\begin{tabular}{rl}
+\textsc{Address:} & 2352 W Beall St. \# 2 Bozeman, MT 59718  \\
+\textsc{Phone:} & (720) 320 0434\\
+\textsc{email:} & \href{mailto:derek.reimanis@gmail.com}{derek.reimanis@gmail.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\begin{tabular}{r|p{11cm}}
+ \textsc{Jan 2015-\emph{Current}} & Graduate Research Assistant at Zoot Enterprises\\
+& \emph{Bozeman, MT}\\ 
+& \footnotesize{Graduate research assistant working with \href{www.zootweb.com}{Zoot Enterprises}. Offering knowledge of technical debt, testing, and software evolution to Zoot to better their process and increase understanding of Zoot's software solutions. Applying these techniques to my research, to achieve a firm level of research relevancy.}\\
+\multicolumn{2}{c}{} \\
+ 
+ %------------------------------------------------
+ 
+ \textsc{Aug 2014-Dec 2014} & Graduate Research Assistant\\
+ & \emph{Bozeman, MT}\\ 
+& \footnotesize{Principal instructor of Montana State University's CSCI 232: Data Structures and Algorithms course. Responsibilities include delivering lectures, creating weekly lab assignemnts, programming assignments, and exams, holding office hours, and assigning grades.}\\
+ \multicolumn{2}{c}{} \\
+ 
+%------------------------------------------------
+
+\textsc{Jan 2012-May 2014} & Graduate Research Assistant\\
+& \emph{Bozeman, MT}\\ 
+& \footnotesize{Assisted with research goals of Dr. Clemente Izurieta. Focus includes software architecture quality assurance from a model-based perspective. This includes structural and behavioral analysis of code to evaluate conformance to good software design principles.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jun 2011-Aug 2011} & Engineering Intern\\
+& \emph{Golden, CO}\\ 
+& \footnotesize{Responsible for designing and implementing a series of microscope instructions that were used to measure features on ceramic parts. Additionally, used statistics to suggest management strategies for process control.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Jan 2013-\emph{Current}} &Ph.D. Candidate in \textsc{Computer Science} \\& \normalsize\textbf{Montana State University}, Bozeman, MT\\
+
+& Emphasis on model-based software engineering, specifically behavior of a system at runtime. \\
+& \small Advisor: Dr. Clemente Izurieta\\ 
+\end{tabular}
+
+\begin{tabular}{r|p{11cm}}	
+
+\textsc{Aug 2009-Dec 2012} & Bachelor of \textsc{Computer Science} \\& \normalsize\textbf{Montana State University}, Bozeman, MT\\
+
+
+\end{tabular}
+\\
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+
+\section{Professional and Technical Skills}
+\begin{tabular}{rl}
+Programming Languages: & Java, C, C++, C\#, Python, {\LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}\\
+
+Modeling-based Languages: & UML, OCL, RBML\\
+\end{tabular}\\
+
+
+\newpage
+
+\section{Peer-Reviewed Publications}
+\begin{enumerate}
+\item{Reimanis D., Izurieta C., ``\emph{A Research Plan to Characterize, Evaluate, and Predict the Impacts of Behavioral Decay in Design Patterns}", IEEE ACM IDoESE, 13th International Doctoral Symposium on Empirical Software Engineering, Beijing, China, October 19 2015.}
+	
+\item{Reimanis D., Izurieta C., Luhr R., Xiao L., Cai Y., Rudy G., ``\emph{A Replication Case Study to Measure the 
+Architectural Quality of a Commercial System}," 8th ACM-IEEE International Symposium on Empirical
+Software Engineering and Measurement, ESEM 2014, Torino, Italy, September 2014.}
+
+\item{Griffith I., Reimanis D., Izurieta C., Codabux Z., Deo A., Williams B., ``\emph{The Correspondence between Software Quality Models and Technical Debt Estimation Approaches}," IEEE ACM MTD 2014 6th International Workshop on Managing Technical Debt. In association with the 30th International Conference on Software Maintenance and Evolution, ICSME, Victoria, British Columbia, Canada, September 30, 2014.}
+
+\item{Izurieta C., Griffith I., Reimanis D., Luhr R., ``\emph{On the Uncertainty of Technical Debt 
+Measurements}," IEEE ICISA 2013 International Conference on Information Science and Applications, 
+Pattaya, Thailand, June 24-26, 2013.}
+
+\item{Luhr R., Reimanis D., Cross R., Izurieta C., Poole G.C., Helton A., ``\emph{Natural Science Visualization Using Digital Theatre Software}," IEEE ICISA 2013 International Conference on Information Science and Applications, Pattaya, Thailand, June 24-26, 2013.}
+
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	Presentations
+%----------------------------------------------------------------------------------------
+
+\section{Professional Presentations}
+
+\begin{tabular}{rp{12.5cm}}
+	\textsc{Oct 2016} & ``Towards Assessing the Technical Debt of Undesired Software Behaviors in Design Patterns"\\
+	& Managing Technical Debt Workshop 2016 (MTD'16) Raleigh, North Carolina\\
+\end{tabular}
+
+\begin{tabular}{rp{12.5cm}}
+	\textsc{Oct 2015} & ``A Research Plan to Characterize, Evaluate, and Predict the Impacts of Behavioral Decay in Design Patterns"\\
+	& International Doctoral Symposium on Empirical Software Engineering 2015 (IDoESE'15) Beijing, China\\
+\end{tabular}
+
+\begin{tabular}{rp{12.5cm}}
+	\textsc{Sept 2014} & ``A Replication Case Study to Measure the Architectural Quality of a Commercial System"\\
+	& Empirical Software Engineering and Measurements 2014 (ESEM'14) Torino, Italy\\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards}
+
+\begin{tabular}{rp{12.5cm}}
+\textsc{Aug 2016} & Recipient of NSF student travel grant to Raleigh, North Carolina for the Managing Technical Debt (MTD'16) workshop co-convened in the International Conference on Software Maintenance and Evolution (ICSME'16) (\$875)\\
+	
+\textsc{Aug 2015} & Recipient of International Software Engineering Research Network (ISERN) student travel grant to Beijing, China for the Empirical Software Engineering International Week 2015 (ESEIW'15) (\$3,000)\\
+
+\textsc{Aug 2014} & Recipient of MSU student travel grant to Torino, Italy for the Empirical Software Engineering International Week 2014 (ESEIW'14) (\$500)\\
+
+\textsc{Aug 2013} & Recipient of NSF student travel grant to Baltimore, Maryland for the Empirical Software Engineering International Week 2013 (ESEIW'13) (\$1,200)\\
+
+\textsc{Aug 2012} & MSU Undergraduate Student Research Awardee\\
+ & ``Developing the Input/Output Module of a Multi-Disciplinary System Modeling Framework"  (\$1,500)\\
+
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Activities
+%----------------------------------------------------------------------------------------
+\section{Activities}
+\begin{itemize}
+\item{Montana State University Computer Science Graduate Student Ambassador to the College of Engineering}
+\item{Member of the MSU Software Engineering Laboratory}
+\item{Member of the IEEE, ACM, and AWC}
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Hobbies}
+
+Machine Learning/Artificial Intelligence/Data Mining, Software Visualization, Software Testing Methods and Techniques\\
+Mountain biking, Running, Cooking, Traveling, Jigsaw Puzzles\\
+
+\section{References}
+(Others available upon request)
+\begin{itemize}
+\item{\textbf{Dr. Clemente Izurieta}\\Montana State University\\Computer Science Department\\\href{mailto:clemente.izurieta@montana.edu}{clemente.izurieta@montana.edu}\\(406) 994 3720}\
+\end{itemize}\
+
+\end{document}
